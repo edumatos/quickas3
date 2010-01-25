@@ -1,0 +1,24 @@
+Thoughts
+
+MouseHandlers 
+n.down(fn)
+n.click(fn)
+n.up(fn)
+n.mousemove(fn)
+
+KeyboardHandlers
+n.keydown(fn)
+n.keyup(fn)
+n.isdown(key:int):Boolean
+
+Loader
+
+data > quick.get(url:String, data:Object, fn)
+content > quick.load(url:String, data:Object, fn)
+
+Open browser
+quick.open(path:String, target:String = "_self")
+
+handlers
+n.add(child)
+
