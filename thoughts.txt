@@ -16,9 +16,21 @@ Loader
 data > quick.get(url:String, data:Object, fn)
 content > quick.load(url:String, data:Object, fn)
 
+
+
+
 Open browser
 quick.open(path:String, target:String = "_self")
 
 handlers
 n.add(child)
 
+quick.load("/swf.swf").done(
+	function(){
+		trace(1)
+	}
+).progress(
+	function(){
+		trace(this.completed)
+	}
+)
