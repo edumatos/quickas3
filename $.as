@@ -1,0 +1,1 @@
+﻿package {	import quick.QuickSelection	public function $(...args:Array):QuickSelection{		return new QuickSelection(args);	}	}
