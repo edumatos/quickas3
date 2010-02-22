@@ -1,0 +1,1 @@
+﻿package {	import flash.display.MovieClip	import quick.*	public class MovieClip extends flash.display.MovieClip{		function MovieClip(){			if(stage) 				QuickKey.Init(stage)		}	}	}

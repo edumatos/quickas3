@@ -1,0 +1,1 @@
+﻿package {	import quick.*	public var $ = function(item:*):Quicker{		return new Quicker(item);	}		$.isDown = function(key:int):Boolean{		return QuickKey.isKeyDown(key)	}	$.showKeys = function():void{		QuickKey.showKeys()	}}

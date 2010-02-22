@@ -1,0 +1,1 @@
+﻿package quick{	import flash.display.Loader	import flash.net.URLRequest	public class QuickLoader extends Loader{		function QuickLoader(path:String){						this.load(new URLRequest(path))					}	}}
